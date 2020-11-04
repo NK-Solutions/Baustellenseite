@@ -7,11 +7,12 @@ class emailButton extends Component {
         this.onClick = this.onClick.bind(this);
     }
     onClick() {
-        window.location.href = `mailto:${this.props.email}`;
+        window.location.href = `mailto:info@nksolutions.net`;
     }
     render() {
-        return <button className="mailbttn" onClick={this.onClick}>info@nksolutions.net</button>;
+        return <button className="mailbttn" onClick={this.onClick}>&#9993; info@nksolutions.net</button>;
     }
 }
+
 
 export default emailButton
